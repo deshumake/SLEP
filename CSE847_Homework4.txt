@@ -1,0 +1,43 @@
+Problem 1:
+
+This problem asked me to create a logistic regression model to determine the classification of spam emails using gradient descent.
+
+When training the model, I used 6 different sizes of training data to train the model on
+
+       Size	|    Accuracy
+   _____________|________________
+	200	|      92.81
+	500	|      93.12
+	800	|      93.08
+	1000	|      93.16
+	1500	|      93.50
+	2000	|      93.89
+
+
+
+Problem 2:
+
+This problem asked me to find the area under the curve for predicting the classifications of the sparse data set of Alzheimer's patients. 
+
+Here are the results based on changing the regularization parameter
+
+
+       Regularization Parameter    |    Area Under Curve    |	Number of Non-zero Features
+       ____________________________|________________________|______________________________
+		  0.00		   |          0.6392	    |		    116
+		  0.01		   |          0.6297	    |		    106
+		  0.10		   |          0.6986	    |		    14
+		  0.20		   |          0.6794	    |		    5
+		  0.30		   |          0.6450	    |		    3
+		  0.40		   |          0.6230	    |		    2
+		  0.50		   |          0.6220	    |		    1
+		  0.60		   |          0.6220	    |		    1
+		  0.70		   |          0.6220	    |		    1
+		  0.80		   |          0.6220	    |		    1
+		  0.90		   |          0.6220	    |		    1
+		  1.00		   |          0.5000	    |		    0
+
+
+
+
+
